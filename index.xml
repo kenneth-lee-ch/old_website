@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Meet Don, the Autonomous Dice Rolling Machine</title>
+      <link>https://kenneth-lee-ch.github.io/project/dicemachine/</link>
+      <pubDate>Fri, 10 Aug 2018 00:25:48 -1000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/project/dicemachine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Applying a Passive Network Reconstruction Technique to Twitter Data in Order to Identify Trend Setters</title>
       <link>https://kenneth-lee-ch.github.io/publication/apply_nr_to_twitter/</link>
       <pubDate>Wed, 09 Aug 2017 23:29:58 -1000</pubDate>

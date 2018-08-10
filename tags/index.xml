@@ -7,9 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Kenneth Lee</copyright>
+    <lastBuildDate>Fri, 10 Aug 2018 00:25:48 -1000</lastBuildDate>
     
 	<atom:link href="https://kenneth-lee-ch.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Computer-vision</title>
+      <link>https://kenneth-lee-ch.github.io/tags/computer-vision/</link>
+      <pubDate>Fri, 10 Aug 2018 00:25:48 -1000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/tags/computer-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dice</title>
+      <link>https://kenneth-lee-ch.github.io/tags/dice/</link>
+      <pubDate>Fri, 10 Aug 2018 00:25:48 -1000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/tags/dice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network-reconstruction</title>
+      <link>https://kenneth-lee-ch.github.io/tags/network-reconstruction/</link>
+      <pubDate>Wed, 09 Aug 2017 23:29:58 -1000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/tags/network-reconstruction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social-network</title>
+      <link>https://kenneth-lee-ch.github.io/tags/social-network/</link>
+      <pubDate>Wed, 09 Aug 2017 23:29:58 -1000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/tags/social-network/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
