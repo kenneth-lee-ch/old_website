@@ -86,6 +86,35 @@
     
     <url>
     
+      <loc>https://kenneth-lee-ch.github.io/</loc>
+      <lastmod>2016-04-20T00:00:00-10:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://kenneth-lee-ch.github.io/project/</loc>
+      <lastmod>2018-08-10T00:49:52-10:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://kenneth-lee-ch.github.io/tags/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://kenneth-lee-ch.github.io/tags/computer-vision/</loc>
       <lastmod>2018-08-10T00:25:48-10:00</lastmod>
       <priority>0</priority>
@@ -146,16 +175,6 @@
     
     <url>
     
-      <loc>https://kenneth-lee-ch.github.io/</loc>
-      <lastmod>2016-04-20T00:00:00-10:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://kenneth-lee-ch.github.io/tags/network-reconstruction/</loc>
       <lastmod>2017-08-09T23:29:58-10:00</lastmod>
       <priority>0</priority>
@@ -167,16 +186,6 @@
     <url>
     
       <loc>https://kenneth-lee-ch.github.io/tags/prediction/</loc>
-      <lastmod>2018-08-10T00:49:52-10:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://kenneth-lee-ch.github.io/project/</loc>
       <lastmod>2018-08-10T00:49:52-10:00</lastmod>
       <priority>0</priority>
     </url>
@@ -228,16 +237,6 @@
     
       <loc>https://kenneth-lee-ch.github.io/tags/system-theory/</loc>
       <lastmod>2017-08-09T23:29:58-10:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://kenneth-lee-ch.github.io/tags/</loc>
-      <lastmod>2018-08-10T00:25:48-10:00</lastmod>
       <priority>0</priority>
     </url>
     
