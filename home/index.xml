@@ -24,19 +24,19 @@ In addition, I fell in love with data science when I first saw the Twitter data 
     
     <item>
       <title>Publications</title>
-      <link>https://kenneth-lee-ch.github.io/home/publications_selected/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -1000</pubDate>
-      
-      <guid>https://kenneth-lee-ch.github.io/home/publications_selected/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Recent Publications</title>
       <link>https://kenneth-lee-ch.github.io/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -1000</pubDate>
       
       <guid>https://kenneth-lee-ch.github.io/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>https://kenneth-lee-ch.github.io/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -1000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/home/publications_selected/</guid>
       <description></description>
     </item>
     
