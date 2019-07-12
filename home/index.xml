@@ -101,7 +101,7 @@ In addition, I fell in love with data science when I first saw the Twitter data 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kenneth-lee-ch.github.io/home/experience/</guid>
-      <description>headless = true # This file represents a page section.
+      <description>widget = &amp;ldquo;experience&amp;rdquo; headless = true # This file represents a page section.
 &amp;hellip; Put Your Section Options Here (title etc.) &amp;hellip; Date format for experience Refer to https://sourcethemes.com/academic/docs/customization/#date-format date_format = &amp;ldquo;Jan 2006&amp;rdquo;
 Experiences. Add/remove as many [[experience]] blocks below as you like. Required fields are title, company, and date_start. Leave date_end empty if it&amp;rsquo;s your current employer. Begin/end multi-line descriptions with 3 quotes &amp;quot;&amp;quot;&amp;quot;. [[experience]] title = &amp;ldquo;Associate Consultant&amp;rdquo; company = &amp;ldquo;Dell EMC&amp;rdquo; company_url = &amp;ldquo;&amp;rdquo; location = &amp;ldquo;Hong Kong&amp;rdquo; date_start = &amp;ldquo;2019-07-01&amp;rdquo; date_end = &amp;ldquo;&amp;rdquo; description = &amp;ldquo;&amp;rdquo;&amp;rdquo; Responsibilities include:</description>
     </item>
