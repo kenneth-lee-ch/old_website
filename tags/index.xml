@@ -4,39 +4,13 @@
     <title>Tags on Kenneth Lee</title>
     <link>https://kenneth-lee-ch.github.io/tags/</link>
     <description>Recent content in Tags on Kenneth Lee</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Kenneth Lee</copyright>
+    <lastBuildDate>Fri, 10 Aug 2018 01:44:57 -1000</lastBuildDate>
     
-	<atom:link href="https://kenneth-lee-ch.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://kenneth-lee-ch.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>computer-vision</title>
-      <link>https://kenneth-lee-ch.github.io/tags/computer-vision/</link>
-      <pubDate>Fri, 10 Aug 2018 00:25:48 -1000</pubDate>
-      
-      <guid>https://kenneth-lee-ch.github.io/tags/computer-vision/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>data-analysis</title>
-      <link>https://kenneth-lee-ch.github.io/tags/data-analysis/</link>
-      <pubDate>Fri, 10 Aug 2018 00:49:52 -1000</pubDate>
-      
-      <guid>https://kenneth-lee-ch.github.io/tags/data-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dice</title>
-      <link>https://kenneth-lee-ch.github.io/tags/dice/</link>
-      <pubDate>Fri, 10 Aug 2018 00:25:48 -1000</pubDate>
-      
-      <guid>https://kenneth-lee-ch.github.io/tags/dice/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>factor analysis</title>
@@ -66,33 +40,6 @@
     </item>
     
     <item>
-      <title>network reconstruction</title>
-      <link>https://kenneth-lee-ch.github.io/tags/network-reconstruction/</link>
-      <pubDate>Wed, 09 Aug 2017 23:29:58 -1000</pubDate>
-      
-      <guid>https://kenneth-lee-ch.github.io/tags/network-reconstruction/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>prediction</title>
-      <link>https://kenneth-lee-ch.github.io/tags/prediction/</link>
-      <pubDate>Fri, 10 Aug 2018 00:49:52 -1000</pubDate>
-      
-      <guid>https://kenneth-lee-ch.github.io/tags/prediction/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>social network</title>
-      <link>https://kenneth-lee-ch.github.io/tags/social-network/</link>
-      <pubDate>Wed, 09 Aug 2017 23:29:58 -1000</pubDate>
-      
-      <guid>https://kenneth-lee-ch.github.io/tags/social-network/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>statistics</title>
       <link>https://kenneth-lee-ch.github.io/tags/statistics/</link>
       <pubDate>Fri, 10 Aug 2018 01:44:57 -1000</pubDate>
@@ -116,6 +63,60 @@
       <pubDate>Fri, 10 Aug 2018 01:44:57 -1000</pubDate>
       
       <guid>https://kenneth-lee-ch.github.io/tags/survey-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data-analysis</title>
+      <link>https://kenneth-lee-ch.github.io/tags/data-analysis/</link>
+      <pubDate>Fri, 10 Aug 2018 00:49:52 -1000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/tags/data-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>prediction</title>
+      <link>https://kenneth-lee-ch.github.io/tags/prediction/</link>
+      <pubDate>Fri, 10 Aug 2018 00:49:52 -1000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/tags/prediction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>computer-vision</title>
+      <link>https://kenneth-lee-ch.github.io/tags/computer-vision/</link>
+      <pubDate>Fri, 10 Aug 2018 00:25:48 -1000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/tags/computer-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dice</title>
+      <link>https://kenneth-lee-ch.github.io/tags/dice/</link>
+      <pubDate>Fri, 10 Aug 2018 00:25:48 -1000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/tags/dice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>network reconstruction</title>
+      <link>https://kenneth-lee-ch.github.io/tags/network-reconstruction/</link>
+      <pubDate>Wed, 09 Aug 2017 23:29:58 -1000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/tags/network-reconstruction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>social network</title>
+      <link>https://kenneth-lee-ch.github.io/tags/social-network/</link>
+      <pubDate>Wed, 09 Aug 2017 23:29:58 -1000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/tags/social-network/</guid>
       <description></description>
     </item>
     
