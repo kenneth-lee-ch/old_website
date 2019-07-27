@@ -7,10 +7,19 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Kenneth Lee</copyright>
-    <lastBuildDate>Fri, 27 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://kenneth-lee-ch.github.io/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How Meaningful is our Graduating Student Survey?</title>
+      <link>https://kenneth-lee-ch.github.io/publication/poster/gssfirst/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/publication/poster/gssfirst/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Predict Patient Inflow at Pali Momi Hospital’s Emergency Room</title>
@@ -24,15 +33,6 @@
 
 &lt;p&gt;In this work, we use repeated cross-validation with 10 folds and 3 repeats, a common standard configuration for comparing models by estimating the model accuracy.  Repeated K-fold Cross-Validation method involves splitting the dataset into k-subsets. Each subset is held-out while the model is trained on all other subsets. This process is repeated until accuracy is determined for each instance in the dataset, and an overall accuracy estimate is provided.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>How Meaningful is our Graduating Student Survey?</title>
-      <link>https://kenneth-lee-ch.github.io/publication/poster/gssfirst/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://kenneth-lee-ch.github.io/publication/poster/gssfirst/</guid>
-      <description></description>
     </item>
     
   </channel>

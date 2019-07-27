@@ -51,9 +51,63 @@
     <item>
       <title>Data Science</title>
       <link>https://kenneth-lee-ch.github.io/tags/data-science/</link>
-      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://kenneth-lee-ch.github.io/tags/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Visualization</title>
+      <link>https://kenneth-lee-ch.github.io/tags/data-visualization/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/tags/data-visualization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Factor Analysis</title>
+      <link>https://kenneth-lee-ch.github.io/tags/factor-analysis/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/tags/factor-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Institutional Research</title>
+      <link>https://kenneth-lee-ch.github.io/tags/institutional-research/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/tags/institutional-research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://kenneth-lee-ch.github.io/tags/r/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Survey Design</title>
+      <link>https://kenneth-lee-ch.github.io/tags/survey-design/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/tags/survey-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tableau</title>
+      <link>https://kenneth-lee-ch.github.io/tags/tableau/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/tags/tableau/</guid>
       <description></description>
     </item>
     
@@ -67,63 +121,9 @@
     </item>
     
     <item>
-      <title>Data Visualization</title>
-      <link>https://kenneth-lee-ch.github.io/tags/data-visualization/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://kenneth-lee-ch.github.io/tags/data-visualization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Factor Analysis</title>
-      <link>https://kenneth-lee-ch.github.io/tags/factor-analysis/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://kenneth-lee-ch.github.io/tags/factor-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Institutional Research</title>
-      <link>https://kenneth-lee-ch.github.io/tags/institutional-research/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://kenneth-lee-ch.github.io/tags/institutional-research/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>https://kenneth-lee-ch.github.io/tags/r/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://kenneth-lee-ch.github.io/tags/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Survey Design</title>
-      <link>https://kenneth-lee-ch.github.io/tags/survey-design/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://kenneth-lee-ch.github.io/tags/survey-design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tableau</title>
-      <link>https://kenneth-lee-ch.github.io/tags/tableau/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://kenneth-lee-ch.github.io/tags/tableau/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Causality</title>
       <link>https://kenneth-lee-ch.github.io/tags/causality/</link>
-      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://kenneth-lee-ch.github.io/tags/causality/</guid>
       <description></description>
@@ -132,7 +132,7 @@
     <item>
       <title>Network Reconstruction</title>
       <link>https://kenneth-lee-ch.github.io/tags/network-reconstruction/</link>
-      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://kenneth-lee-ch.github.io/tags/network-reconstruction/</guid>
       <description></description>
@@ -141,7 +141,7 @@
     <item>
       <title>Social Network</title>
       <link>https://kenneth-lee-ch.github.io/tags/social-network/</link>
-      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://kenneth-lee-ch.github.io/tags/social-network/</guid>
       <description></description>
@@ -150,7 +150,7 @@
     <item>
       <title>System Theory</title>
       <link>https://kenneth-lee-ch.github.io/tags/system-theory/</link>
-      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://kenneth-lee-ch.github.io/tags/system-theory/</guid>
       <description></description>

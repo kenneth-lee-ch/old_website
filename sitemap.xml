@@ -50,8 +50,106 @@
   </url>
   
   <url>
+    <loc>https://kenneth-lee-ch.github.io/authors/admin/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kenneth-lee-ch.github.io/publication_types/0/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kenneth-lee-ch.github.io/authors/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kenneth-lee-ch.github.io/tags/data-science/</loc>
-    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kenneth-lee-ch.github.io/tags/data-visualization/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kenneth-lee-ch.github.io/tags/factor-analysis/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kenneth-lee-ch.github.io/publication/poster/gsssecond/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kenneth-lee-ch.github.io/authors/hong-ni-mui/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kenneth-lee-ch.github.io/publication/poster/gssfirst/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kenneth-lee-ch.github.io/tags/institutional-research/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kenneth-lee-ch.github.io/authors/kathy-pulotu/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kenneth-lee-ch.github.io/publication_types/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kenneth-lee-ch.github.io/publication/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kenneth-lee-ch.github.io/tags/r/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kenneth-lee-ch.github.io/authors/rosalind-ram/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kenneth-lee-ch.github.io/tags/survey-design/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kenneth-lee-ch.github.io/tags/tableau/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kenneth-lee-ch.github.io/authors/trysta-vallabh/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -67,159 +165,61 @@
   </url>
   
   <url>
-    <loc>https://kenneth-lee-ch.github.io/authors/admin/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kenneth-lee-ch.github.io/publication_types/0/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kenneth-lee-ch.github.io/authors/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kenneth-lee-ch.github.io/tags/data-visualization/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kenneth-lee-ch.github.io/tags/factor-analysis/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kenneth-lee-ch.github.io/publication/poster/gsssecond/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kenneth-lee-ch.github.io/authors/hong-ni-mui/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kenneth-lee-ch.github.io/publication/poster/gssfirst/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kenneth-lee-ch.github.io/tags/institutional-research/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kenneth-lee-ch.github.io/authors/kathy-pulotu/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kenneth-lee-ch.github.io/publication_types/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kenneth-lee-ch.github.io/publication/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kenneth-lee-ch.github.io/tags/r/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kenneth-lee-ch.github.io/authors/rosalind-ram/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kenneth-lee-ch.github.io/tags/survey-design/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kenneth-lee-ch.github.io/tags/tableau/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kenneth-lee-ch.github.io/authors/trysta-vallabh/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://kenneth-lee-ch.github.io/publication_types/1/</loc>
-    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kenneth-lee-ch.github.io/publication/conference-paper/apply-nr-to-twitter/</loc>
-    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://kenneth-lee-ch.github.io/tags/causality/</loc>
-    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kenneth-lee-ch.github.io/authors/jacob-brewer/</loc>
-    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kenneth-lee-ch.github.io/authors/nathan-woodbury/</loc>
-    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kenneth-lee-ch.github.io/tags/network-reconstruction/</loc>
-    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kenneth-lee-ch.github.io/authors/sean-warnick/</loc>
-    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kenneth-lee-ch.github.io/tags/social-network/</loc>
-    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kenneth-lee-ch.github.io/tags/system-theory/</loc>
-    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kenneth-lee-ch.github.io/authors/vasu-chetty/</loc>
-    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
