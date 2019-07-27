@@ -7,18 +7,37 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Kenneth Lee</copyright>
-    <lastBuildDate>Fri, 10 Aug 2018 01:44:57 -1000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://kenneth-lee-ch.github.io/authors/rosalind-ram/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How Meaningful is our Graduating Student Survey?</title>
-      <link>https://kenneth-lee-ch.github.io/publication/gssfirst/</link>
-      <pubDate>Fri, 10 Aug 2018 01:44:57 -1000</pubDate>
+      <link>https://kenneth-lee-ch.github.io/publication/poster/gssfirst/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://kenneth-lee-ch.github.io/publication/gssfirst/</guid>
-      <description></description>
+      <guid>https://kenneth-lee-ch.github.io/publication/poster/gssfirst/</guid>
+      <description>
+
+&lt;h1 id=&#34;uncomment-below-if-you-open&#34;&gt;Uncomment below if you open&lt;/h1&gt;
+
+&lt;p&gt;#&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    #Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+#
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;#&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    #Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+#
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;#Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

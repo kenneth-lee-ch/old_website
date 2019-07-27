@@ -7,35 +7,26 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Kenneth Lee</copyright>
-    <lastBuildDate>Fri, 10 Aug 2018 01:44:57 -1000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://kenneth-lee-ch.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Graduating Student Survey Revision: A student effort</title>
-      <link>https://kenneth-lee-ch.github.io/publication/gsssecond/</link>
-      <pubDate>Fri, 10 Aug 2018 01:44:57 -1000</pubDate>
+      <title>Meet Don, the Autonomous Dice Rolling Machine</title>
+      <link>https://kenneth-lee-ch.github.io/project/dicemachine/</link>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://kenneth-lee-ch.github.io/publication/gsssecond/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>How Meaningful is our Graduating Student Survey?</title>
-      <link>https://kenneth-lee-ch.github.io/publication/gssfirst/</link>
-      <pubDate>Fri, 10 Aug 2018 01:44:57 -1000</pubDate>
-      
-      <guid>https://kenneth-lee-ch.github.io/publication/gssfirst/</guid>
+      <guid>https://kenneth-lee-ch.github.io/project/dicemachine/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Predict Patient Inflow at Pali Momi Hospital’s Emergency Room</title>
-      <link>https://kenneth-lee-ch.github.io/project/palimomihospital/</link>
-      <pubDate>Fri, 10 Aug 2018 00:49:52 -1000</pubDate>
+      <link>https://kenneth-lee-ch.github.io/project/pali_momi_hospital/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://kenneth-lee-ch.github.io/project/palimomihospital/</guid>
+      <guid>https://kenneth-lee-ch.github.io/project/pali_momi_hospital/</guid>
       <description>&lt;p&gt;We use R and Jupyter Notebook in making predictions models to understand patient influx and predict their arrival times. Using these predictions, we can aid Pali Momi hospital in understanding what factors cause over and understaffing. Therefore, we can more positively help Pali Momi hospital to meet patient demand.&lt;/p&gt;
 
 &lt;p&gt;To enhance the given data from the hospital and provide more accurate predictions, we add the following features and variables: 1. Number of walk-ins 2. Airplane passenger arrival counts from the past two years from international and domestic individuals 3. Month of year, week of year 4. Scheduling periods 5. Doctor-to-patient ratio.&lt;/p&gt;
@@ -45,20 +36,67 @@
     </item>
     
     <item>
-      <title>Meet Don, the Autonomous Dice Rolling Machine</title>
-      <link>https://kenneth-lee-ch.github.io/project/dicemachine/</link>
-      <pubDate>Fri, 10 Aug 2018 00:25:48 -1000</pubDate>
+      <title>Graduating Student Survey Revision: A student effort</title>
+      <link>https://kenneth-lee-ch.github.io/publication/poster/gsssecond/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://kenneth-lee-ch.github.io/project/dicemachine/</guid>
-      <description></description>
+      <guid>https://kenneth-lee-ch.github.io/publication/poster/gsssecond/</guid>
+      <description>
+
+&lt;h1 id=&#34;uncomment-the-below-for-alert-message&#34;&gt;Uncomment the below for alert message&lt;/h1&gt;
+
+&lt;p&gt;#&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    #Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+#
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;#&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    #Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+#
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;#Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How Meaningful is our Graduating Student Survey?</title>
+      <link>https://kenneth-lee-ch.github.io/publication/poster/gssfirst/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/publication/poster/gssfirst/</guid>
+      <description>
+
+&lt;h1 id=&#34;uncomment-below-if-you-open&#34;&gt;Uncomment below if you open&lt;/h1&gt;
+
+&lt;p&gt;#&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    #Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+#
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;#&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    #Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+#
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;#Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Applying a Passive Network Reconstruction Technique to Twitter Data in Order to Identify Trend Setters</title>
-      <link>https://kenneth-lee-ch.github.io/publication/apply_nr_to_twitter/</link>
-      <pubDate>Wed, 09 Aug 2017 23:29:58 -1000</pubDate>
+      <link>https://kenneth-lee-ch.github.io/publication/conference-paper/apply-nr-to-twitter/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://kenneth-lee-ch.github.io/publication/apply_nr_to_twitter/</guid>
+      <guid>https://kenneth-lee-ch.github.io/publication/conference-paper/apply-nr-to-twitter/</guid>
       <description></description>
     </item>
     

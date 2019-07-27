@@ -7,125 +7,71 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Kenneth Lee</copyright>
-    <lastBuildDate>Fri, 10 Aug 2018 01:44:57 -1000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://kenneth-lee-ch.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>factor analysis</title>
-      <link>https://kenneth-lee-ch.github.io/tags/factor-analysis/</link>
-      <pubDate>Fri, 10 Aug 2018 01:44:57 -1000</pubDate>
-      
-      <guid>https://kenneth-lee-ch.github.io/tags/factor-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>institutional effectiveness</title>
-      <link>https://kenneth-lee-ch.github.io/tags/institutional-effectiveness/</link>
-      <pubDate>Fri, 10 Aug 2018 01:44:57 -1000</pubDate>
-      
-      <guid>https://kenneth-lee-ch.github.io/tags/institutional-effectiveness/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>institutional research</title>
-      <link>https://kenneth-lee-ch.github.io/tags/institutional-research/</link>
-      <pubDate>Fri, 10 Aug 2018 01:44:57 -1000</pubDate>
-      
-      <guid>https://kenneth-lee-ch.github.io/tags/institutional-research/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>statistics</title>
-      <link>https://kenneth-lee-ch.github.io/tags/statistics/</link>
-      <pubDate>Fri, 10 Aug 2018 01:44:57 -1000</pubDate>
-      
-      <guid>https://kenneth-lee-ch.github.io/tags/statistics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>student engagement</title>
-      <link>https://kenneth-lee-ch.github.io/tags/student-engagement/</link>
-      <pubDate>Fri, 10 Aug 2018 01:44:57 -1000</pubDate>
-      
-      <guid>https://kenneth-lee-ch.github.io/tags/student-engagement/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>survey design</title>
-      <link>https://kenneth-lee-ch.github.io/tags/survey-design/</link>
-      <pubDate>Fri, 10 Aug 2018 01:44:57 -1000</pubDate>
-      
-      <guid>https://kenneth-lee-ch.github.io/tags/survey-design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>data-analysis</title>
-      <link>https://kenneth-lee-ch.github.io/tags/data-analysis/</link>
-      <pubDate>Fri, 10 Aug 2018 00:49:52 -1000</pubDate>
-      
-      <guid>https://kenneth-lee-ch.github.io/tags/data-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>prediction</title>
-      <link>https://kenneth-lee-ch.github.io/tags/prediction/</link>
-      <pubDate>Fri, 10 Aug 2018 00:49:52 -1000</pubDate>
-      
-      <guid>https://kenneth-lee-ch.github.io/tags/prediction/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>computer-vision</title>
+      <title>Computer Vision</title>
       <link>https://kenneth-lee-ch.github.io/tags/computer-vision/</link>
-      <pubDate>Fri, 10 Aug 2018 00:25:48 -1000</pubDate>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://kenneth-lee-ch.github.io/tags/computer-vision/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>dice</title>
-      <link>https://kenneth-lee-ch.github.io/tags/dice/</link>
-      <pubDate>Fri, 10 Aug 2018 00:25:48 -1000</pubDate>
+      <title>Machine Learning</title>
+      <link>https://kenneth-lee-ch.github.io/tags/machine-learning/</link>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://kenneth-lee-ch.github.io/tags/dice/</guid>
+      <guid>https://kenneth-lee-ch.github.io/tags/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>network reconstruction</title>
-      <link>https://kenneth-lee-ch.github.io/tags/network-reconstruction/</link>
-      <pubDate>Wed, 09 Aug 2017 23:29:58 -1000</pubDate>
+      <title>Object Detection</title>
+      <link>https://kenneth-lee-ch.github.io/tags/object-detection/</link>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://kenneth-lee-ch.github.io/tags/network-reconstruction/</guid>
+      <guid>https://kenneth-lee-ch.github.io/tags/object-detection/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>social network</title>
-      <link>https://kenneth-lee-ch.github.io/tags/social-network/</link>
-      <pubDate>Wed, 09 Aug 2017 23:29:58 -1000</pubDate>
+      <title>Probability</title>
+      <link>https://kenneth-lee-ch.github.io/tags/probability/</link>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://kenneth-lee-ch.github.io/tags/social-network/</guid>
+      <guid>https://kenneth-lee-ch.github.io/tags/probability/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>system theory</title>
-      <link>https://kenneth-lee-ch.github.io/tags/system-theory/</link>
-      <pubDate>Wed, 09 Aug 2017 23:29:58 -1000</pubDate>
+      <title>Data Science</title>
+      <link>https://kenneth-lee-ch.github.io/tags/data-science/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://kenneth-lee-ch.github.io/tags/system-theory/</guid>
+      <guid>https://kenneth-lee-ch.github.io/tags/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regression</title>
+      <link>https://kenneth-lee-ch.github.io/tags/regression/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/tags/regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Source Themes</title>
+      <link>https://kenneth-lee-ch.github.io/tags/source-themes/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/tags/source-themes/</guid>
       <description></description>
     </item>
     

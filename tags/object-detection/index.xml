@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Object Detection on Kenneth Lee</title>
+    <link>https://kenneth-lee-ch.github.io/tags/object-detection/</link>
+    <description>Recent content in Object Detection on Kenneth Lee</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Kenneth Lee</copyright>
+    <lastBuildDate>Fri, 10 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://kenneth-lee-ch.github.io/tags/object-detection/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Meet Don, the Autonomous Dice Rolling Machine</title>
+      <link>https://kenneth-lee-ch.github.io/project/dicemachine/</link>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/project/dicemachine/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
