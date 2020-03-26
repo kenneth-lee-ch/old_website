@@ -91,19 +91,47 @@
   </url>
   
   <url>
+    <loc>https://kenneth-lee-ch.github.io/project/creditfraud/</loc>
+    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kenneth-lee-ch.github.io/tags/credit-fraud-detection/</loc>
     <lastmod>2020-01-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kenneth-lee-ch.github.io/project/creditfraud/</loc>
+    <loc>https://kenneth-lee-ch.github.io/tags/neural-networks/</loc>
     <lastmod>2020-01-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kenneth-lee-ch.github.io/tags/neural-network/</loc>
-    <lastmod>2019-09-10T00:00:00+00:00</lastmod>
+    <loc>https://kenneth-lee-ch.github.io/project/abalone/</loc>
+    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kenneth-lee-ch.github.io/tags/healthcare/</loc>
+    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kenneth-lee-ch.github.io/project/heart/</loc>
+    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kenneth-lee-ch.github.io/tags/marine-biology/</loc>
+    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kenneth-lee-ch.github.io/tags/regression/</loc>
+    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -131,6 +159,12 @@
   
   <url>
     <loc>https://kenneth-lee-ch.github.io/tags/probability/</loc>
+    <lastmod>2018-08-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kenneth-lee-ch.github.io/tags/robotics/</loc>
     <lastmod>2018-08-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -242,12 +276,6 @@
   <url>
     <loc>https://kenneth-lee-ch.github.io/project/pali_momi_hospital/</loc>
     <lastmod>2018-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kenneth-lee-ch.github.io/tags/regression/</loc>
-    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

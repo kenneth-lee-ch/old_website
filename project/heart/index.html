@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="It classifies fraudulent credit card transactions based on the result of a PCA transformation. We explore various classic classification algorithms in this work.">
+  <meta name="description" content="We aim to train a classifier to accurately classify a person whether or not has a heart disease problem. The dataset is provided by UCI Machine Learning Repository.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://kenneth-lee-ch.github.io/project/creditfraud/">
+  <link rel="alternate" hreflang="en-us" href="https://kenneth-lee-ch.github.io/project/heart/">
 
   
 
@@ -96,7 +96,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://kenneth-lee-ch.github.io/project/creditfraud/">
+  <link rel="canonical" href="https://kenneth-lee-ch.github.io/project/heart/">
 
   
   
@@ -110,26 +110,26 @@
   <meta property="twitter:creator" content="@kenneth-lee-ch">
   
   <meta property="og:site_name" content="Kenneth Lee">
-  <meta property="og:url" content="https://kenneth-lee-ch.github.io/project/creditfraud/">
-  <meta property="og:title" content="Credit Card Fraud Detection | Kenneth Lee">
-  <meta property="og:description" content="It classifies fraudulent credit card transactions based on the result of a PCA transformation. We explore various classic classification algorithms in this work."><meta property="og:image" content="https://kenneth-lee-ch.github.io/project/creditfraud/featured.jpg">
-  <meta property="twitter:image" content="https://kenneth-lee-ch.github.io/project/creditfraud/featured.jpg"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://kenneth-lee-ch.github.io/project/heart/">
+  <meta property="og:title" content="Heart Disease Classification | Kenneth Lee">
+  <meta property="og:description" content="We aim to train a classifier to accurately classify a person whether or not has a heart disease problem. The dataset is provided by UCI Machine Learning Repository."><meta property="og:image" content="https://kenneth-lee-ch.github.io/project/heart/featured.jpg">
+  <meta property="twitter:image" content="https://kenneth-lee-ch.github.io/project/heart/featured.jpg"><meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2020-01-10T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2019-10-10T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2020-01-10T00:00:00&#43;00:00">
+  <meta property="article:modified_time" content="2019-10-10T00:00:00&#43;00:00">
   
-
-  
-
 
   
 
 
+  
 
 
 
-  <title>Credit Card Fraud Detection | Kenneth Lee</title>
+
+
+  <title>Heart Disease Classification | Kenneth Lee</title>
 
 </head>
 
@@ -430,12 +430,10 @@
 
   
   
-    
-  
 
 
 <div class="article-container pt-3">
-  <h1 itemprop="name">Credit Card Fraud Detection</h1>
+  <h1 itemprop="name">Heart Disease Classification</h1>
 
   
 
@@ -443,8 +441,8 @@
 
 
 
-<meta content="2020-01-10 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2020-01-10 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+<meta content="2019-10-10 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2019-10-10 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -457,7 +455,7 @@
     
       
     
-    <time>Jan 10, 2020</time>
+    <time>Oct 10, 2019</time>
   </span>
   
 
@@ -550,7 +548,7 @@
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/kenneth-lee-ch/kaggle-credit-card-fraud-detection" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/kenneth-lee-ch/uci_heart_disease_classification" target="_blank" rel="noopener">
     <i class="fab fa-github mr-1"></i>
     Github
   </a>
@@ -562,10 +560,10 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 405px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 700px; max-height: 525px;">
   <div style="position: relative">
-    <img src="/project/creditfraud/featured_hu507deea7fc8b54ecc4de534f6bd6b509_162681_720x0_resize_q90_lanczos.jpg" alt="" class="featured-image">
-    <span class="article-header-caption">Credit cards</span>
+    <img src="/project/heart/featured.jpg" alt="" class="featured-image">
+    <span class="article-header-caption">abalone</span>
   </div>
 </div>
 
@@ -574,9 +572,66 @@
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      <p>Credit card fraud detection is one of the most important issues for credit card companies to deal with in order to earn trust from its customers. As machine learning techniques are robust to many tackle classification problems settings such as image recognition, we aim to explore various machine learning classification algorithms on this particular problem of classifying credit card fraud.</p>
+      
 
-<p>This work showcases on how to compare different algorithms and fine-tune them. The dataset mainly contains 492 frauds out of 284,807 transactions. It has 28 principle components, transaction time, and tranaction amount with labels, 0 being non-fraud and 1 being fraud.</p>
+<p>In this project, we aim to train a classifier to accurately classify a person whether or not has a heart disease problem. In particular, we would like to compare several classification algorithms: logistic regression, random forests, support vector machine and k-nearest neighbours based on sensitivity and classification accuracy. Also, it will be beneficial to see if we can reduce the number of features to perform a good classification that may potentially lower the costs of collecting expensive features in the future. Most people believe that age should be a strong indicator whether a person has a heart disease problem. Our project will also validate this claim and see if there are any better indicators with hypothesis testing.</p>
+
+<h2 id="questions-of-interests">Questions of interests</h2>
+
+<p>What is the relationship between age and heart disease?</p>
+
+<p>Will combining several predictors into one new predictor variable be useful to improve our model?</p>
+
+<p>What will be the best combination of features we should use based on the classification algorithm?</p>
+
+<p>Can we reduce the number of features and still get a satisfactory classification performance?</p>
+
+<p>What is the best classification rate that we can come up with to predict the presence of heart disease?</p>
+
+<h2 id="data-exploration">Data Exploration</h2>
+
+<p>We first explore the data by making use of boxplots, histograms, density plots, and a scatterplot matrix. In particular, we use boxplots to explore the distribution of some quantitative variables such as maximum heart rate achieved, serum cholesterol, age, resting blood pressure and by gender and disease to see if there is any significant differences among different genders and types of disease.</p>
+
+<p>Then, we would split the data set into training and testing datasets by having 80 percent of the data to be training and 20 percent of the data to be testing. We then implemented several algorithms including logistic regression, random forests, support vector machine, and K-nearest neighbors to classify the presence and absence of heart disease. We also conduct outlier detection to see if there is a performance gain by dropping some potential outliers in the data.</p>
+
+<h2 id="classification-model">Classification Model</h2>
+
+<h3 id="logistic-regression">Logistic Regression</h3>
+
+<p>We first compare two logistic models that use all the predictor variables: model 1 and model 2. The difference between these two models is that we dropped two potential outliers (row 259 and 4) by looking at the standardized deviance residual plot and use the rest of the data to train the model 2 to see if there is a performance gain in comparison with model 1.</p>
+
+<p>Next, we also train three logistic regression models with different numbers of predictors. Model 3 utilizes all first order term and two-way interaction term. Model 4 is only trained with quantitative predictor variables including age, resting blood pressure, serum cholesterol, maximum heart rate achieved, oldpeak, and major vessels. Model 5 will be trained by a reduced number of features based on our feature selection method. Then, we will select the model with the highest accuracy and sensitivity rate to compare with other algorithms.</p>
+
+<h4 id="probability-threshold-selction-for-logistic-regression-classification">Probability threshold selction for logistic regression classification</h4>
+
+<p>Besides, we use Receiver Operating Characteristics (ROC) curve to see what are some best cut-off threshold for getting the most accurate classification rate for each model by picking thresholds that maximizes the area under the curve as it measures how good our model is able to distinguish two classes of the response variable.</p>
+
+<h4 id="features-selection">Features selection</h4>
+
+<p>We want to estimate the variable importance to see if we can reduce the number of features and still achieve a satisfactory result. The importance can be estimated using a ROC curve analysis conducted for each attribute.</p>
+
+<h2 id="evaluation-metric">Evaluation Metric</h2>
+
+<p>Our evaluation metric is based on sensitivity and the accuracy rate. Since it is more important to
+correctly identify people who have a heart disease, we set the presence of heart disease as positive. Sensitivity is the true positive rate, which is the percentage of people with heart disease who are correctly identified as having the condition.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>In conclusion, we see people who have heart disease are mostly around the age of 60. Also, the predictor variable, age, doesn’t explain the response variable of heart disease as good as the number of major vessels in our logistic regression model. Moreover, we see that combining features into one predictor variable by using two-way interaction terms does not necessarily improve classification performance in general. When we look at our logistic regression models, we see that reducing number of features for training can improve model performance by excluding the predictor named fasting blood sugar. We have found that the following predictors are particularly important in logistic regression model for classification: major vessels, chest pain type, thal, sex, resting blood pressure, slope, oldpeak, serum cholestoral, exercise induced angina and maximum heart rate achieved.</p>
+
+<h2 id="data-source">Data Source</h2>
+
+<p><a href="http://archive.ics.uci.edu/ml/datasets/statlog+(heart)" target="_blank">UCI heart disease data set</a></p>
+
+<h2 id="author">Author</h2>
+
+<p>Kenneth Lee (<a href="https://github.com/kenneth-lee-ch" target="_blank">@kenneth-lee-ch</a>)</p>
+
+<h2 id="license">License</h2>
+
+<p><a href="https://choosealicense.com/licenses/mit/" target="_blank">MIT</a></p>
+
+<p>If you do find this script useful, a link back to this repository would be appreciated. Thanks!</p>
 
     </div>
 
@@ -588,9 +643,9 @@
   
   <a class="badge badge-light" href="/tags/classification/">Classification</a>
   
-  <a class="badge badge-light" href="/tags/credit-fraud-detection/">Credit Fraud Detection</a>
+  <a class="badge badge-light" href="/tags/statistics/">Statistics</a>
   
-  <a class="badge badge-light" href="/tags/neural-networks/">Neural Networks</a>
+  <a class="badge badge-light" href="/tags/healthcare/">Healthcare</a>
   
 </div>
 

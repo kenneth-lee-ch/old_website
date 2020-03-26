@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marine Biology on Kenneth Lee</title>
+    <link>https://kenneth-lee-ch.github.io/tags/marine-biology/</link>
+    <description>Recent content in Marine Biology on Kenneth Lee</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Kenneth Lee</copyright>
+    <lastBuildDate>Thu, 10 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://kenneth-lee-ch.github.io/tags/marine-biology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Abalone&#39;s Age Prediction</title>
+      <link>https://kenneth-lee-ch.github.io/project/abalone/</link>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/project/abalone/</guid>
+      <description>&lt;p&gt;In this study, we aim to resolve the traditionally tedious and time consuming task of determining the age of abalone by constructing predictive models of the ages of abalones using other physical measures that are easier to obtain. Based on the dataset with which we are provided, we construct models of various complexities and propose the one with the highest out-of-sample prediction performance. Our model is able to control the mean squared prediction error to an infinitesimal extent, while subject to only a reasonably small model bias. In addition, we also explore the possibilities of conjecturing other interior content (in-shell information), such as shucked weights of abalone, using measurements which can be obtained prior to cracking the shell (out-of-shell information). Our results show that not only is predicting such in-shell measures with out-of-shell information feasible, but one might achieve even better results than making predictions on the ages of the abalones.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

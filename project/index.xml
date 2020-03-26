@@ -65,7 +65,7 @@
     </item>
     
     <item>
-      <title>Credit card fraud detection</title>
+      <title>Credit Card Fraud Detection</title>
       <link>https://kenneth-lee-ch.github.io/project/creditfraud/</link>
       <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
       
@@ -73,6 +73,85 @@
       <description>&lt;p&gt;Credit card fraud detection is one of the most important issues for credit card companies to deal with in order to earn trust from its customers. As machine learning techniques are robust to many tackle classification problems settings such as image recognition, we aim to explore various machine learning classification algorithms on this particular problem of classifying credit card fraud.&lt;/p&gt;
 
 &lt;p&gt;This work showcases on how to compare different algorithms and fine-tune them. The dataset mainly contains 492 frauds out of 284,807 transactions. It has 28 principle components, transaction time, and tranaction amount with labels, 0 being non-fraud and 1 being fraud.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Abalone&#39;s Age Prediction</title>
+      <link>https://kenneth-lee-ch.github.io/project/abalone/</link>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/project/abalone/</guid>
+      <description>&lt;p&gt;In this study, we aim to resolve the traditionally tedious and time consuming task of determining the age of abalone by constructing predictive models of the ages of abalones using other physical measures that are easier to obtain. Based on the dataset with which we are provided, we construct models of various complexities and propose the one with the highest out-of-sample prediction performance. Our model is able to control the mean squared prediction error to an infinitesimal extent, while subject to only a reasonably small model bias. In addition, we also explore the possibilities of conjecturing other interior content (in-shell information), such as shucked weights of abalone, using measurements which can be obtained prior to cracking the shell (out-of-shell information). Our results show that not only is predicting such in-shell measures with out-of-shell information feasible, but one might achieve even better results than making predictions on the ages of the abalones.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Heart Disease Classification</title>
+      <link>https://kenneth-lee-ch.github.io/project/heart/</link>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/project/heart/</guid>
+      <description>
+
+&lt;p&gt;In this project, we aim to train a classifier to accurately classify a person whether or not has a heart disease problem. In particular, we would like to compare several classification algorithms: logistic regression, random forests, support vector machine and k-nearest neighbours based on sensitivity and classification accuracy. Also, it will be beneficial to see if we can reduce the number of features to perform a good classification that may potentially lower the costs of collecting expensive features in the future. Most people believe that age should be a strong indicator whether a person has a heart disease problem. Our project will also validate this claim and see if there are any better indicators with hypothesis testing.&lt;/p&gt;
+
+&lt;h2 id=&#34;questions-of-interests&#34;&gt;Questions of interests&lt;/h2&gt;
+
+&lt;p&gt;What is the relationship between age and heart disease?&lt;/p&gt;
+
+&lt;p&gt;Will combining several predictors into one new predictor variable be useful to improve our model?&lt;/p&gt;
+
+&lt;p&gt;What will be the best combination of features we should use based on the classification algorithm?&lt;/p&gt;
+
+&lt;p&gt;Can we reduce the number of features and still get a satisfactory classification performance?&lt;/p&gt;
+
+&lt;p&gt;What is the best classification rate that we can come up with to predict the presence of heart disease?&lt;/p&gt;
+
+&lt;h2 id=&#34;data-exploration&#34;&gt;Data Exploration&lt;/h2&gt;
+
+&lt;p&gt;We first explore the data by making use of boxplots, histograms, density plots, and a scatterplot matrix. In particular, we use boxplots to explore the distribution of some quantitative variables such as maximum heart rate achieved, serum cholesterol, age, resting blood pressure and by gender and disease to see if there is any significant differences among different genders and types of disease.&lt;/p&gt;
+
+&lt;p&gt;Then, we would split the data set into training and testing datasets by having 80 percent of the data to be training and 20 percent of the data to be testing. We then implemented several algorithms including logistic regression, random forests, support vector machine, and K-nearest neighbors to classify the presence and absence of heart disease. We also conduct outlier detection to see if there is a performance gain by dropping some potential outliers in the data.&lt;/p&gt;
+
+&lt;h2 id=&#34;classification-model&#34;&gt;Classification Model&lt;/h2&gt;
+
+&lt;h3 id=&#34;logistic-regression&#34;&gt;Logistic Regression&lt;/h3&gt;
+
+&lt;p&gt;We first compare two logistic models that use all the predictor variables: model 1 and model 2. The difference between these two models is that we dropped two potential outliers (row 259 and 4) by looking at the standardized deviance residual plot and use the rest of the data to train the model 2 to see if there is a performance gain in comparison with model 1.&lt;/p&gt;
+
+&lt;p&gt;Next, we also train three logistic regression models with different numbers of predictors. Model 3 utilizes all first order term and two-way interaction term. Model 4 is only trained with quantitative predictor variables including age, resting blood pressure, serum cholesterol, maximum heart rate achieved, oldpeak, and major vessels. Model 5 will be trained by a reduced number of features based on our feature selection method. Then, we will select the model with the highest accuracy and sensitivity rate to compare with other algorithms.&lt;/p&gt;
+
+&lt;h4 id=&#34;probability-threshold-selction-for-logistic-regression-classification&#34;&gt;Probability threshold selction for logistic regression classification&lt;/h4&gt;
+
+&lt;p&gt;Besides, we use Receiver Operating Characteristics (ROC) curve to see what are some best cut-off threshold for getting the most accurate classification rate for each model by picking thresholds that maximizes the area under the curve as it measures how good our model is able to distinguish two classes of the response variable.&lt;/p&gt;
+
+&lt;h4 id=&#34;features-selection&#34;&gt;Features selection&lt;/h4&gt;
+
+&lt;p&gt;We want to estimate the variable importance to see if we can reduce the number of features and still achieve a satisfactory result. The importance can be estimated using a ROC curve analysis conducted for each attribute.&lt;/p&gt;
+
+&lt;h2 id=&#34;evaluation-metric&#34;&gt;Evaluation Metric&lt;/h2&gt;
+
+&lt;p&gt;Our evaluation metric is based on sensitivity and the accuracy rate. Since it is more important to
+correctly identify people who have a heart disease, we set the presence of heart disease as positive. Sensitivity is the true positive rate, which is the percentage of people with heart disease who are correctly identified as having the condition.&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;In conclusion, we see people who have heart disease are mostly around the age of 60. Also, the predictor variable, age, doesn’t explain the response variable of heart disease as good as the number of major vessels in our logistic regression model. Moreover, we see that combining features into one predictor variable by using two-way interaction terms does not necessarily improve classification performance in general. When we look at our logistic regression models, we see that reducing number of features for training can improve model performance by excluding the predictor named fasting blood sugar. We have found that the following predictors are particularly important in logistic regression model for classification: major vessels, chest pain type, thal, sex, resting blood pressure, slope, oldpeak, serum cholestoral, exercise induced angina and maximum heart rate achieved.&lt;/p&gt;
+
+&lt;h2 id=&#34;data-source&#34;&gt;Data Source&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://archive.ics.uci.edu/ml/datasets/statlog+(heart)&#34; target=&#34;_blank&#34;&gt;UCI heart disease data set&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;author&#34;&gt;Author&lt;/h2&gt;
+
+&lt;p&gt;Kenneth Lee (&lt;a href=&#34;https://github.com/kenneth-lee-ch&#34; target=&#34;_blank&#34;&gt;@kenneth-lee-ch&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://choosealicense.com/licenses/mit/&#34; target=&#34;_blank&#34;&gt;MIT&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you do find this script useful, a link back to this repository would be appreciated. Thanks!&lt;/p&gt;
 </description>
     </item>
     

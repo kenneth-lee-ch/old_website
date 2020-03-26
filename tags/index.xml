@@ -112,11 +112,38 @@
     </item>
     
     <item>
-      <title>Neural Network</title>
-      <link>https://kenneth-lee-ch.github.io/tags/neural-network/</link>
-      <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
+      <title>Neural Networks</title>
+      <link>https://kenneth-lee-ch.github.io/tags/neural-networks/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://kenneth-lee-ch.github.io/tags/neural-network/</guid>
+      <guid>https://kenneth-lee-ch.github.io/tags/neural-networks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Healthcare</title>
+      <link>https://kenneth-lee-ch.github.io/tags/healthcare/</link>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/tags/healthcare/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marine Biology</title>
+      <link>https://kenneth-lee-ch.github.io/tags/marine-biology/</link>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/tags/marine-biology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regression</title>
+      <link>https://kenneth-lee-ch.github.io/tags/regression/</link>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/tags/regression/</guid>
       <description></description>
     </item>
     
@@ -144,6 +171,15 @@
       <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://kenneth-lee-ch.github.io/tags/probability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robotics</title>
+      <link>https://kenneth-lee-ch.github.io/tags/robotics/</link>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/tags/robotics/</guid>
       <description></description>
     </item>
     
@@ -207,15 +243,6 @@
       <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://kenneth-lee-ch.github.io/tags/tableau/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Regression</title>
-      <link>https://kenneth-lee-ch.github.io/tags/regression/</link>
-      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://kenneth-lee-ch.github.io/tags/regression/</guid>
       <description></description>
     </item>
     
