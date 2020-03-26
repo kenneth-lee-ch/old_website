@@ -6,7 +6,7 @@
     <description>Recent content in Classification on Kenneth Lee</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2019 Kenneth Lee</copyright>
+    <copyright>&amp;copy; 2020 Kenneth Lee</copyright>
     <lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://kenneth-lee-ch.github.io/tags/classification/index.xml" rel="self" type="application/rss+xml" />
@@ -80,16 +80,6 @@ correctly identify people who have a heart disease, we set the presence of heart
 &lt;h2 id=&#34;data-source&#34;&gt;Data Source&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://archive.ics.uci.edu/ml/datasets/statlog+(heart)&#34; target=&#34;_blank&#34;&gt;UCI heart disease data set&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;author&#34;&gt;Author&lt;/h2&gt;
-
-&lt;p&gt;Kenneth Lee (&lt;a href=&#34;https://github.com/kenneth-lee-ch&#34; target=&#34;_blank&#34;&gt;@kenneth-lee-ch&lt;/a&gt;)&lt;/p&gt;
-
-&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://choosealicense.com/licenses/mit/&#34; target=&#34;_blank&#34;&gt;MIT&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;If you do find this script useful, a link back to this repository would be appreciated. Thanks!&lt;/p&gt;
 </description>
     </item>
     
