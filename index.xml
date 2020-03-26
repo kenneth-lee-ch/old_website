@@ -7,10 +7,84 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Kenneth Lee</copyright>
-    <lastBuildDate>Fri, 10 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://kenneth-lee-ch.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Citibike System Data Analysis</title>
+      <link>https://kenneth-lee-ch.github.io/project/citibike/</link>
+      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/project/citibike/</guid>
+      <description>&lt;p&gt;Citibike is New York City’s bike share system established in 2013. It has become a vital part of the transportation network in New York City. It is available for use throughout the entire year. All the riders have access to thousands of bikes at hundreds of stations across Manhattan, Brooklyn, Queens and Jersey City. In this work, we would like to explore the characteristics of this bike share system and come up with recommendations that may improve the current program based on data analysis wtih the Citi Bike system 2019 data that is publicly available.&lt;/p&gt;
+
+&lt;p&gt;According to a New York magazine, Intelligencer (&lt;a href=&#34;https://nymag.com/intelligencer/2014/03/citi-bikes-four-huge-problems.html&#34; target=&#34;_blank&#34;&gt;https://nymag.com/intelligencer/2014/03/citi-bikes-four-huge-problems.html&lt;/a&gt;), there are some problems the citi-bike share system faced in 2014. We summarize them as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;How can we increase the number of customer (one-time user)?&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Do we have any suggestion to attract more users, especially customer, during Winter?&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Riders complained as bikes went missing for maintenance or protection, leaving certain stations empty for days at a time, what can we do with that problem?&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In this work, we would like to explore the characteristics of this bike share system and try to come up with recommendations to provide potential solutions for the questions above based on data analysis wtih the Citi Bike system 2019 data that is publicly available.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Student/Teacher Achievement Ratio</title>
+      <link>https://kenneth-lee-ch.github.io/project/star/</link>
+      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/project/star/</guid>
+      <description>&lt;p&gt;The effects of class sizes on student achievement is an important topic for policymakers in the American K-12 education system. To study the effects of class size on student achievement in the primary grades, the State Department of Education in Tennessee launched a four-year longitudinal class-size randomized study from 1985 to 1989 called The Student/Teacher Achievement Ratio (STAR). Over 7000 students in 79 schools participated in this project. We highlight the features of the experiment process in the study below.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;All participating schools had to agree to the random assignment of teachers and students to different class conditions: small class (13 to 17 students per teacher), regular class (22 to 25 students per teacher), and regular-with-aide class (22 to 25 students with a full-time teacher’s aide).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The assignments of various class types were initiated as the students entered school in kindergarten and continued through third grade.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Each school must provide enough kindergarten students to be assigned to three numerous class types in order to participate in the project STAR.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The student achievement is measured annually via Stanford Achievement Tests (SATs) during the spring term on testing dates specified by the Tennessee state.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Students moving from a school involved in STAR to another participating school were assigned to the same type of class as they had participated in previously. Also, it is possible that the size of a regular class can be as small as the small class type as students move out of the participating schools.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Besides class size and teacher aides, there were no other experimental changes involved in the study.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;There were three schools resigned from the project STAR at the end of kindergarten, so that there were only left with 76 schools in the 1st-grade level.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Our primary scientific question of interest is whether there is a treatment effect of assigning various class types to the average math scaled scores in a 1st-grade class level. We implement exploratory data analysis, two-way ANOVA model, model diagnostics, hypothesis testing. In the end, we will discuss any causal statements that could possibly be made based on our analysis and assumptions and the differences between a student-level and a class-level analysis on this STAR dataset.&lt;/p&gt;
+
+&lt;p&gt;This work shows that the treatment effect of the class type does exist in a class level for this dataset. We also show that it is possible to make causal statements based on our analysis.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Credit card fraud detection</title>
+      <link>https://kenneth-lee-ch.github.io/project/creditfraud/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/project/creditfraud/</guid>
+      <description>&lt;p&gt;Credit card fraud detection is one of the most important issues for credit card companies to deal with in order to earn trust from its customers. As machine learning techniques are robust to many tackle classification problems settings such as image recognition, we aim to explore various machine learning classification algorithms on this particular problem of classifying credit card fraud.&lt;/p&gt;
+
+&lt;p&gt;This work showcases on how to compare different algorithms and fine-tune them. The dataset mainly contains 492 frauds out of 284,807 transactions. It has 28 principle components, transaction time, and tranaction amount with labels, 0 being non-fraud and 1 being fraud.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SMS Spam Classification</title>
+      <link>https://kenneth-lee-ch.github.io/project/spam/</link>
+      <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/project/spam/</guid>
+      <description>&lt;p&gt;Spam, a bulk of unsolicited messages sent by anonymous sources, has been a costly issue to human communication. Machine learning techniques have been shown promising to filter these messages as it adapts to the evolving characteristics of the spam. In this work, we focus on neural networks to the problem of spam filtering. Overall, we conclude that using bidirectioncomparing various classification methodsal gated recurrent neural network with tokenizer method is the most robust way we have found to handle this problem with our particular dataset. This work provides insights on how to design a neural network to work with spam filtering problem.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Meet Don, the Autonomous Dice Rolling Machine</title>

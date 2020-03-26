@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Transportation on Kenneth Lee</title>
+    <link>https://kenneth-lee-ch.github.io/tags/transportation/</link>
+    <description>Recent content in Transportation on Kenneth Lee</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Kenneth Lee</copyright>
+    <lastBuildDate>Tue, 10 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://kenneth-lee-ch.github.io/tags/transportation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Citibike System Data Analysis</title>
+      <link>https://kenneth-lee-ch.github.io/project/citibike/</link>
+      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/project/citibike/</guid>
+      <description>&lt;p&gt;Citibike is New York City’s bike share system established in 2013. It has become a vital part of the transportation network in New York City. It is available for use throughout the entire year. All the riders have access to thousands of bikes at hundreds of stations across Manhattan, Brooklyn, Queens and Jersey City. In this work, we would like to explore the characteristics of this bike share system and come up with recommendations that may improve the current program based on data analysis wtih the Citi Bike system 2019 data that is publicly available.&lt;/p&gt;
+
+&lt;p&gt;According to a New York magazine, Intelligencer (&lt;a href=&#34;https://nymag.com/intelligencer/2014/03/citi-bikes-four-huge-problems.html&#34; target=&#34;_blank&#34;&gt;https://nymag.com/intelligencer/2014/03/citi-bikes-four-huge-problems.html&lt;/a&gt;), there are some problems the citi-bike share system faced in 2014. We summarize them as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;How can we increase the number of customer (one-time user)?&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Do we have any suggestion to attract more users, especially customer, during Winter?&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Riders complained as bikes went missing for maintenance or protection, leaving certain stations empty for days at a time, what can we do with that problem?&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In this work, we would like to explore the characteristics of this bike share system and try to come up with recommendations to provide potential solutions for the questions above based on data analysis wtih the Citi Bike system 2019 data that is publicly available.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

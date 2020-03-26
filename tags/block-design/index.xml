@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Block Design on Kenneth Lee</title>
+    <link>https://kenneth-lee-ch.github.io/tags/block-design/</link>
+    <description>Recent content in Block Design on Kenneth Lee</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Kenneth Lee</copyright>
+    <lastBuildDate>Tue, 10 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://kenneth-lee-ch.github.io/tags/block-design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Student/Teacher Achievement Ratio</title>
+      <link>https://kenneth-lee-ch.github.io/project/star/</link>
+      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/project/star/</guid>
+      <description>&lt;p&gt;The effects of class sizes on student achievement is an important topic for policymakers in the American K-12 education system. To study the effects of class size on student achievement in the primary grades, the State Department of Education in Tennessee launched a four-year longitudinal class-size randomized study from 1985 to 1989 called The Student/Teacher Achievement Ratio (STAR). Over 7000 students in 79 schools participated in this project. We highlight the features of the experiment process in the study below.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;All participating schools had to agree to the random assignment of teachers and students to different class conditions: small class (13 to 17 students per teacher), regular class (22 to 25 students per teacher), and regular-with-aide class (22 to 25 students with a full-time teacher’s aide).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The assignments of various class types were initiated as the students entered school in kindergarten and continued through third grade.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Each school must provide enough kindergarten students to be assigned to three numerous class types in order to participate in the project STAR.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The student achievement is measured annually via Stanford Achievement Tests (SATs) during the spring term on testing dates specified by the Tennessee state.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Students moving from a school involved in STAR to another participating school were assigned to the same type of class as they had participated in previously. Also, it is possible that the size of a regular class can be as small as the small class type as students move out of the participating schools.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Besides class size and teacher aides, there were no other experimental changes involved in the study.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;There were three schools resigned from the project STAR at the end of kindergarten, so that there were only left with 76 schools in the 1st-grade level.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Our primary scientific question of interest is whether there is a treatment effect of assigning various class types to the average math scaled scores in a 1st-grade class level. We implement exploratory data analysis, two-way ANOVA model, model diagnostics, hypothesis testing. In the end, we will discuss any causal statements that could possibly be made based on our analysis and assumptions and the differences between a student-level and a class-level analysis on this STAR dataset.&lt;/p&gt;
+
+&lt;p&gt;This work shows that the treatment effect of the class type does exist in a class level for this dataset. We also show that it is possible to make causal statements based on our analysis.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

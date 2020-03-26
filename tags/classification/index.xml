@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Classification on Kenneth Lee</title>
+    <link>https://kenneth-lee-ch.github.io/tags/classification/</link>
+    <description>Recent content in Classification on Kenneth Lee</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Kenneth Lee</copyright>
+    <lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://kenneth-lee-ch.github.io/tags/classification/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Credit card fraud detection</title>
+      <link>https://kenneth-lee-ch.github.io/project/creditfraud/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/project/creditfraud/</guid>
+      <description>&lt;p&gt;Credit card fraud detection is one of the most important issues for credit card companies to deal with in order to earn trust from its customers. As machine learning techniques are robust to many tackle classification problems settings such as image recognition, we aim to explore various machine learning classification algorithms on this particular problem of classifying credit card fraud.&lt;/p&gt;
+
+&lt;p&gt;This work showcases on how to compare different algorithms and fine-tune them. The dataset mainly contains 492 frauds out of 284,807 transactions. It has 28 principle components, transaction time, and tranaction amount with labels, 0 being non-fraud and 1 being fraud.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SMS Spam Classification</title>
+      <link>https://kenneth-lee-ch.github.io/project/spam/</link>
+      <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/project/spam/</guid>
+      <description>&lt;p&gt;Spam, a bulk of unsolicited messages sent by anonymous sources, has been a costly issue to human communication. Machine learning techniques have been shown promising to filter these messages as it adapts to the evolving characteristics of the spam. In this work, we focus on neural networks to the problem of spam filtering. Overall, we conclude that using bidirectioncomparing various classification methodsal gated recurrent neural network with tokenizer method is the most robust way we have found to handle this problem with our particular dataset. This work provides insights on how to design a neural network to work with spam filtering problem.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

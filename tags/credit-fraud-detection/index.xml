@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Credit Fraud Detection on Kenneth Lee</title>
+    <link>https://kenneth-lee-ch.github.io/tags/credit-fraud-detection/</link>
+    <description>Recent content in Credit Fraud Detection on Kenneth Lee</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Kenneth Lee</copyright>
+    <lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://kenneth-lee-ch.github.io/tags/credit-fraud-detection/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Credit card fraud detection</title>
+      <link>https://kenneth-lee-ch.github.io/project/creditfraud/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/project/creditfraud/</guid>
+      <description>&lt;p&gt;Credit card fraud detection is one of the most important issues for credit card companies to deal with in order to earn trust from its customers. As machine learning techniques are robust to many tackle classification problems settings such as image recognition, we aim to explore various machine learning classification algorithms on this particular problem of classifying credit card fraud.&lt;/p&gt;
+
+&lt;p&gt;This work showcases on how to compare different algorithms and fine-tune them. The dataset mainly contains 492 frauds out of 284,807 transactions. It has 28 principle components, transaction time, and tranaction amount with labels, 0 being non-fraud and 1 being fraud.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
