@@ -7,10 +7,24 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020 Kenneth Lee</copyright>
-    <lastBuildDate>Tue, 10 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://kenneth-lee-ch.github.io/tags/clustering/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What2Cook</title>
+      <link>https://kenneth-lee-ch.github.io/project/what2cook/</link>
+      <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/project/what2cook/</guid>
+      <description>&lt;p&gt;We explore the potential of creating new recipes via text data. Our goal has two folds. First, we aim to classify the cuisine based on ingredients. Second, we want to predict an ingredient that is missing from a given list of ingredients and a cuisine name. The first task can be formulated as a multi-class classification problem. To convert the text into numerical signals, we can use TFIDF vectorizer, Countvectorizer, word embedding based on Word2Vec model. We are able to achieve 0.85 micro-averaged F1 scores for the multi-classification task with multilayer perceptrons and bag-of-words model.&lt;/p&gt;
+
+&lt;p&gt;For the first task, we compare several well-known classification algorithms such as logistic regression, naive bayes, linear discriminant analysis, decision tree classifier, random forest, Adaboost, multi-layer perceptrons. We conduct grid search with 5-fold stratified cross-validation for hyperparameter tuning.&lt;/p&gt;
+
+&lt;p&gt;For the second task, we adopt two approaches to process the recipe text, which is the key to the recommender system. We first explore the recommended ingredients based on similarity to the given recipe using vectorizers; and then we examine the performance, in terms of the &amp;ldquo;top n accuracy&amp;rdquo; metric, of a baseline popularity model and a sophiticated collaborative filtering model under the ``text_preprocess method.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Citibike System Data Analysis</title>

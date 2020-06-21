@@ -7,10 +7,55 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020 Kenneth Lee</copyright>
-    <lastBuildDate>Tue, 10 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://kenneth-lee-ch.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Classification</title>
+      <link>https://kenneth-lee-ch.github.io/tags/classification/</link>
+      <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/tags/classification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clustering</title>
+      <link>https://kenneth-lee-ch.github.io/tags/clustering/</link>
+      <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/tags/clustering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>https://kenneth-lee-ch.github.io/tags/machine-learning/</link>
+      <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neural Networks</title>
+      <link>https://kenneth-lee-ch.github.io/tags/neural-networks/</link>
+      <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/tags/neural-networks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recommender Systems</title>
+      <link>https://kenneth-lee-ch.github.io/tags/recommender-systems/</link>
+      <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/tags/recommender-systems/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ANOVA</title>
@@ -36,24 +81,6 @@
       <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kenneth-lee-ch.github.io/tags/casual-inference/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Clustering</title>
-      <link>https://kenneth-lee-ch.github.io/tags/clustering/</link>
-      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://kenneth-lee-ch.github.io/tags/clustering/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Machine Learning</title>
-      <link>https://kenneth-lee-ch.github.io/tags/machine-learning/</link>
-      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://kenneth-lee-ch.github.io/tags/machine-learning/</guid>
       <description></description>
     </item>
     
@@ -94,29 +121,11 @@
     </item>
     
     <item>
-      <title>Classification</title>
-      <link>https://kenneth-lee-ch.github.io/tags/classification/</link>
-      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://kenneth-lee-ch.github.io/tags/classification/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Credit Fraud Detection</title>
       <link>https://kenneth-lee-ch.github.io/tags/credit-fraud-detection/</link>
       <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kenneth-lee-ch.github.io/tags/credit-fraud-detection/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Neural Networks</title>
-      <link>https://kenneth-lee-ch.github.io/tags/neural-networks/</link>
-      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://kenneth-lee-ch.github.io/tags/neural-networks/</guid>
       <description></description>
     </item>
     
