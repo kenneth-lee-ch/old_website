@@ -7,10 +7,37 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020 Kenneth Lee</copyright>
-    <lastBuildDate>Fri, 12 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Dec 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://kenneth-lee-ch.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Healthcare</title>
+      <link>https://kenneth-lee-ch.github.io/tags/healthcare/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/tags/healthcare/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>https://kenneth-lee-ch.github.io/tags/machine-learning/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistics</title>
+      <link>https://kenneth-lee-ch.github.io/tags/statistics/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/tags/statistics/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Classification</title>
@@ -27,15 +54,6 @@
       <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kenneth-lee-ch.github.io/tags/clustering/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Machine Learning</title>
-      <link>https://kenneth-lee-ch.github.io/tags/machine-learning/</link>
-      <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://kenneth-lee-ch.github.io/tags/machine-learning/</guid>
       <description></description>
     </item>
     
@@ -94,15 +112,6 @@
     </item>
     
     <item>
-      <title>Statistics</title>
-      <link>https://kenneth-lee-ch.github.io/tags/statistics/</link>
-      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://kenneth-lee-ch.github.io/tags/statistics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Transportation</title>
       <link>https://kenneth-lee-ch.github.io/tags/transportation/</link>
       <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
@@ -126,15 +135,6 @@
       <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kenneth-lee-ch.github.io/tags/credit-fraud-detection/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Healthcare</title>
-      <link>https://kenneth-lee-ch.github.io/tags/healthcare/</link>
-      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://kenneth-lee-ch.github.io/tags/healthcare/</guid>
       <description></description>
     </item>
     
