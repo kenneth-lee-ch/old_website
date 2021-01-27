@@ -18,11 +18,11 @@
       <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kenneth-lee-ch.github.io/project/covid19/</guid>
-      <description>&lt;p&gt;Based on assumptions, we have found that state-wide government interventions tend to have a larger effect in reducing mobility in the areas with a large population, a small percentage of people in poverty, a high percent of people with education backgrounds, and a low unemployment rate.&lt;/p&gt;
+      <description>&lt;p&gt;This work has shown a way to estimate the effect of the emergency declaration on mobility during the pandemic. The emegency declaration tend to be more effective in reducing mobility in the areas that have large population, small percent of people in poverty, high percent of people with education backgrounds, low unemployment rate. One can apply the same strategy to estimate the causal effect of a single intervention so long there is no any other interventions happening concurrently.&lt;/p&gt;
 
-&lt;p&gt;Secondly, recommended polcies, gathering restriction and school closure, may not have a sigificant effect in reducing mobility, whereas some mandatory policies such as public masks and business closures have a significant effect on mobility in California counties. We rank the effectiveness of the intervention on mobility in terms of the regression coefficient in a linear regression setting. Other regression methods should also be used for further study.&lt;/p&gt;
+&lt;p&gt;Also, we provide a way to estimate the effects of interventions when the potential confounding variables are observed. Having accounted for case count signals and number of outpatient visits, we see that governemnt interventions can be more significiant in reducing the mobility in terms of restaurant visit. For example, in Allegaheny county in Pennsylvania, among all governemnt interventions, only mandatory stay at home order reduces restaurant visit significantly at 0.05 significant level. On the other hand, bar restriction and gathering restriction significantly reduce restaurant visit in Yolo county in California in comparison with other interventions.&lt;/p&gt;
 
-&lt;p&gt;In future, we need to collect more data about county-level intervention to measure the start dates and end dates of the policies more accurately. Also, we can examine other mobility signals available in the Dephi API.&lt;/p&gt;
+&lt;p&gt;We leave characterization for the ranks of the effect of interventions on county-level as a future work. Other regression methods such as non-parametric regression such as generalized additive models can also be used for further study. One should note that the effects of the interventions vary across counties in general. This study assumes that every county strictly follows all state-wide policies. It is encouraged to study a specific county in order to make a more precise conclusion on the effects of the intervention.&lt;/p&gt;
 </description>
     </item>
     
