@@ -30,31 +30,31 @@
 
 &lt;p&gt;Prior to model building, it is always good to explore the dataset first. From the distribution of the sentiment in the tweets, we can see that tweets that carry netrual sentiment tend to be shorter than those that are positive or negative. We also see that negative sentiment frequently occurs at text length around 10 or 20. The collected tweets hardly go over 35 words.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://kenneth-lee-ch.github.io/figures/sentiment_distribution.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kenneth-lee-ch.github.io/static/supportphrase/sentiment_distribution.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Next, we can get a sense of what words that contribute to different sentiments in the tweets. We plot three different wordclouds to show different collections of vocabularies that count towards different types of sentiment. For the positive wordcloud, the main words include &amp;ldquo;love&amp;rdquo;, &amp;ldquo;thank&amp;rdquo;, &amp;ldquo;good&amp;rdquo;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://kenneth-lee-ch.github.io/figures/pos-wordcloud.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kenneth-lee-ch.github.io/static/supportphrase/pos-wordcloud.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Interestingly, as we look at the neutral word cloud, we see that the main words include &amp;ldquo;today&amp;rdquo;, &amp;ldquo;going&amp;rdquo;, &amp;ldquo;want&amp;rdquo;, &amp;ldquo;need&amp;rdquo;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://kenneth-lee-ch.github.io/figures/neu-wordcloud.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kenneth-lee-ch.github.io/static/supportphrase/neu-wordcloud.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Then, we can see from the negative word cloud that people mostly express their negative sentiment through words like &amp;ldquo;really&amp;rdquo;, &amp;ldquo;sad&amp;rdquo;, &amp;ldquo;sorry&amp;rdquo;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://kenneth-lee-ch.github.io/figures/neg-wordcloud.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kenneth-lee-ch.github.io/static/supportphrase/neg-wordcloud.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Besides, we can look at two words together at a time, which is known as bigram, to understand which two words go together often in different sentimental tweets. We can see that &amp;ldquo;mother day&amp;rdquo; and &amp;ldquo;happy mother&amp;rdquo; are strongly associated with positive sentiment. In addition, negative sentiment is mostly associated with &amp;ldquo;feel like&amp;rdquo; and &amp;ldquo;last night&amp;rdquo;. It maybe good to look into those tweets with &amp;ldquo;last night&amp;rdquo; to see if most of them come from news.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://kenneth-lee-ch.github.io/figures/pos-bigram.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kenneth-lee-ch.github.io/static/supportphrase/pos-bigram.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://kenneth-lee-ch.github.io/figures/neg-bigram.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kenneth-lee-ch.github.io/static/supportphrase/neg-bigram.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;evaluation-metric&#34;&gt;Evaluation Metric&lt;/h3&gt;
 
 &lt;p&gt;The metric in this project is the word-level Jaccard score as follows:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://kenneth-lee-ch.github.io/figures/formula.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;figures/supportphrase/formula.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;where A, B are sets of words, and |.| denotes the cardinality.&lt;/p&gt;
 

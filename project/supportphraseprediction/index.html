@@ -584,31 +584,31 @@
 
 <p>Prior to model building, it is always good to explore the dataset first. From the distribution of the sentiment in the tweets, we can see that tweets that carry netrual sentiment tend to be shorter than those that are positive or negative. We also see that negative sentiment frequently occurs at text length around 10 or 20. The collected tweets hardly go over 35 words.</p>
 
-<p><img src="/figures/sentiment_distribution.png" alt="" /></p>
+<p><img src="/static/supportphrase/sentiment_distribution.png" alt="" /></p>
 
 <p>Next, we can get a sense of what words that contribute to different sentiments in the tweets. We plot three different wordclouds to show different collections of vocabularies that count towards different types of sentiment. For the positive wordcloud, the main words include &ldquo;love&rdquo;, &ldquo;thank&rdquo;, &ldquo;good&rdquo;.</p>
 
-<p><img src="/figures/pos-wordcloud.png" alt="" /></p>
+<p><img src="/static/supportphrase/pos-wordcloud.png" alt="" /></p>
 
 <p>Interestingly, as we look at the neutral word cloud, we see that the main words include &ldquo;today&rdquo;, &ldquo;going&rdquo;, &ldquo;want&rdquo;, &ldquo;need&rdquo;.</p>
 
-<p><img src="/figures/neu-wordcloud.png" alt="" /></p>
+<p><img src="/static/supportphrase/neu-wordcloud.png" alt="" /></p>
 
 <p>Then, we can see from the negative word cloud that people mostly express their negative sentiment through words like &ldquo;really&rdquo;, &ldquo;sad&rdquo;, &ldquo;sorry&rdquo;.</p>
 
-<p><img src="/figures/neg-wordcloud.png" alt="" /></p>
+<p><img src="/static/supportphrase/neg-wordcloud.png" alt="" /></p>
 
 <p>Besides, we can look at two words together at a time, which is known as bigram, to understand which two words go together often in different sentimental tweets. We can see that &ldquo;mother day&rdquo; and &ldquo;happy mother&rdquo; are strongly associated with positive sentiment. In addition, negative sentiment is mostly associated with &ldquo;feel like&rdquo; and &ldquo;last night&rdquo;. It maybe good to look into those tweets with &ldquo;last night&rdquo; to see if most of them come from news.</p>
 
-<p><img src="/figures/pos-bigram.png" alt="" /></p>
+<p><img src="/static/supportphrase/pos-bigram.png" alt="" /></p>
 
-<p><img src="/figures/neg-bigram.png" alt="" /></p>
+<p><img src="/static/supportphrase/neg-bigram.png" alt="" /></p>
 
 <h3 id="evaluation-metric">Evaluation Metric</h3>
 
 <p>The metric in this project is the word-level Jaccard score as follows:</p>
 
-<p><img src="/figures/formula.png" alt="" /></p>
+<p><img src="figures/supportphrase/formula.png" alt="" /></p>
 
 <p>where A, B are sets of words, and |.| denotes the cardinality.</p>
 
