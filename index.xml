@@ -46,6 +46,10 @@
 
 &lt;p&gt;&lt;img src=&#34;https://kenneth-lee-ch.github.io/supportphrase/sentiment_distribution.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
+&lt;p&gt;[supportphrase]
+image = &amp;ldquo;supportphrase/sentiment_distribution.png&amp;rdquo;
+caption = &amp;ldquo;&amp;rdquo;&lt;/p&gt;
+
 &lt;p&gt;Next, we can get a sense of what words that contribute to different sentiments in the tweets. We plot three different wordclouds to show different collections of vocabularies that count towards different types of sentiment. For the positive wordcloud, the main words include &amp;ldquo;love&amp;rdquo;, &amp;ldquo;thank&amp;rdquo;, &amp;ldquo;good&amp;rdquo;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://kenneth-lee-ch.github.io/supportphrase/pos-wordcloud.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
