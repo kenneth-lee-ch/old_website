@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Kenneth Lee</title>
+    <link>https://kenneth-lee-ch.github.io/tags/python/</link>
+    <description>Recent content in Python on Kenneth Lee</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2021 Kenneth Lee</copyright>
+    <lastBuildDate>Fri, 12 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://kenneth-lee-ch.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tweet Sentiment Extraction</title>
+      <link>https://kenneth-lee-ch.github.io/project/supportphraseprediction/</link>
+      <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/project/supportphraseprediction/</guid>
+      <description>
+
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;Understanding what descriptions lead to certain sentiment in language is important nowadays when reactions to various decisions are made in seconds on social media. The goal of this project is to construct a model for a given sentence and the label sentiment to predict what phrases in the sentence that best support the given sentiment. In natural language processing, we can formulate this task as a question-answering task where sentiment is a question, the tweet is the context, and the support phrase is the answer. We compare several popular neural network models such as the Long-short Term Memory (LSTM), Gated Recurrent Unit (GRU) for this task. Under a word similarity metric, Jaccard score, we are able to achieve 0.607 score with the model.&lt;/p&gt;
+
+&lt;h2 id=&#34;methods-and-results&#34;&gt;Methods and Results&lt;/h2&gt;
+
+&lt;h3 id=&#34;exploratory-data-analysis-and-processing&#34;&gt;Exploratory Data Analysis and Processing&lt;/h3&gt;
+
+&lt;p&gt;Prior to model building, it is always good to explore the dataset first. From the distribution of the sentiment in the tweets, we can see that tweets that carry netrual sentiment tend to be shorter than those that are positive or negative. We also see that negative sentiment frequently occurs at text length around 10 or 20. The collected tweets hardly go over 35 words.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://kenneth-lee-ch.github.io/img/supportphrase/sentiment_distribution.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Next, we can get a sense of what words that contribute to different sentiments in the tweets. We plot three different wordclouds to show different collections of vocabularies that count towards different types of sentiment. For the positive wordcloud, the main words include &amp;ldquo;love&amp;rdquo;, &amp;ldquo;thank&amp;rdquo;, &amp;ldquo;good&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://kenneth-lee-ch.github.io/img/supportphrase/pos-wordcloud.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Interestingly, as we look at the neutral word cloud, we see that the main words include &amp;ldquo;today&amp;rdquo;, &amp;ldquo;going&amp;rdquo;, &amp;ldquo;want&amp;rdquo;, &amp;ldquo;need&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://kenneth-lee-ch.github.io/img/supportphrase/neu-wordcloud.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then, we can see from the negative word cloud that people mostly express their negative sentiment through words like &amp;ldquo;really&amp;rdquo;, &amp;ldquo;sad&amp;rdquo;, &amp;ldquo;sorry&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://kenneth-lee-ch.github.io/img/supportphrase/neg-wordcloud.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Besides, we can look at two words together at a time, which is known as bigram, to understand which two words go together often in different sentimental tweets. We can see that &amp;ldquo;mother day&amp;rdquo; and &amp;ldquo;happy mother&amp;rdquo; are strongly associated with positive sentiment. In addition, negative sentiment is mostly associated with &amp;ldquo;feel like&amp;rdquo; and &amp;ldquo;last night&amp;rdquo;. It maybe good to look into those tweets with &amp;ldquo;last night&amp;rdquo; to see if most of them come from news.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://kenneth-lee-ch.github.io/img/supportphrase/pos-bigram.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://kenneth-lee-ch.github.io/img/supportphrase/neg-bigram.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;evaluation-metric&#34;&gt;Evaluation Metric&lt;/h3&gt;
+
+&lt;p&gt;The metric in this project is the word-level Jaccard score as follows:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://kenneth-lee-ch.github.io/img/supportphrase/formula.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;where A, B are sets of words, and |.| denotes the cardinality.&lt;/p&gt;
+
+&lt;h3 id=&#34;bidirectional-lstm-and-gru-with-word-embedding&#34;&gt;Bidirectional LSTM and GRU with word embedding&lt;/h3&gt;
+
+&lt;p&gt;The first two neural network architectures we use learn to predict a binary sequence to find the positions corresponding to the selected text inside a given sentence. It consists of the following components: a bidirectional LSTM layer (interchangeable with a GRU layer to become a bidirectional GRU (B-GRU)), a dropout layer, a fully connected layer, a
+dropout layer, a fully connected layer, a dropout layer, and an output layer. Time distributed layer is added in between droput, full-connected layer, and the output layer.&lt;/p&gt;
+
+&lt;p&gt;We use the Keras API in Tensorflow to build a model that consist of the following components in order:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Input layer with maximum list length among all the sentences in &lt;code&gt;text&lt;/code&gt; column in the data. It can be incorporated in the bidirectional layer argument.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A bidirectional LSTM/GRU layer with 20 units, set &lt;code&gt;return sequence = True&lt;/code&gt;, &lt;code&gt;dropout=0.3&lt;/code&gt;, &lt;code&gt;recurrent dropout = 0.3&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A dropout layer with 0.5 rate followed by a fully connected layer with 64 units and set &lt;code&gt;kernel constraint=max norm(3)&lt;/code&gt;. When use LSTM layer, change the activation in the first layer to be “relu” and the second activation to be “tanh”. When using GRU, the first activation should be “tanh” and the second activation to be “relu”.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Repeat the same set up in 4.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A dropout layer with 0.5 rate followed by a one unit output layer with sigmoid activation, which is for binary classification.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Lastly, set the loss function to be binary cross entropy and use &lt;code&gt;SGD(lr=0.1 , momentum=0.9)&lt;/code&gt; as the optimizer with
+&lt;code&gt;accuracy&lt;/code&gt; as the metric for compiling model. Then, fit the model with training data and validate on the test set with 32 batch size, 60 epochs. At the end, find all the text from the test set that corresponds 1’s in the predicted vector by using tokenizer to output the corresponding text and compute the Jaccard score.&lt;/p&gt;
+
+&lt;h4 id=&#34;implementation-summary&#34;&gt;Implementation Summary&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Replace any word in the text with &lt;code&gt;&amp;lt;token&amp;gt;&lt;/code&gt; if it matches the selected text and create a new column in the dataframe called &lt;code&gt;tokenized text&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Use Tokenizer() from tensorflow package to tokenize all sentences in &lt;code&gt;text&lt;/code&gt; and &lt;code&gt;tokenized text&lt;/code&gt; columns. Specify the parameter &lt;code&gt;Tokenizer(Filter=“”)&lt;/code&gt; so it will recognize &lt;code&gt;&amp;lt;token&amp;gt;&lt;/code&gt; as a word.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Ensure all the words that contain &lt;code&gt;&amp;lt;token&amp;gt;&lt;/code&gt; in the tokenizer have the same index in the tokenizer. Then, get the length of the list that contains the longest text in the &lt;code&gt;text&lt;/code&gt; column. We then convert each row in &lt;code&gt;text&lt;/code&gt; to a list of integers by the indicies in tokenizer and pad all lists to have the same length by the max length we obtained previously with zero, call it &lt;code&gt;X&lt;/code&gt;. We also convert the text in &lt;code&gt;tokenized text&lt;/code&gt; in the same manner, call it &lt;code&gt;y&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;For every word in each text in y, if it doesn’t correspond to the index of &lt;code&gt;&amp;lt;token&amp;gt;&lt;/code&gt;, we set it to be 0 and
+1 otherwise.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Then, we randomly shuffle and split X and y with 20% test set for testing the model.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Use &lt;code&gt;np.array(X_train).reshape(X_train.shape[0]&lt;/code&gt;, &lt;code&gt;X_train.shape[1],1).astype(np.float32)&lt;/code&gt; to transform the dimension for the training samples and &lt;code&gt;np.array(y_train).reshape(y_train.shape[0]&lt;/code&gt;, &lt;code&gt;y_train.shape[1],1)&lt;/code&gt; to transform the dimension for the response in order to have the model to output a sequence.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&#34;justification-for-parameters-use&#34;&gt;Justification for Parameters Use&lt;/h4&gt;
+
+&lt;p&gt;As recommended by &lt;a href=&#34;https://jmlr.org/papers/v15/srivastava14a.html&#34; target=&#34;_blank&#34;&gt;Srivastava et al., 2014&lt;/a&gt;, we set a large learning rate and high momentum for the SGD along with dropout and follow a similar fashion to set the &lt;code&gt;kernel_constraint&lt;/code&gt; on the weights for each hidden layer, ensuring that the maximum norm of the weights does not exceed a value of 2 . Also, we set 60 epochs as we see the training and validation loss don’t change much after 60 epochs. The increases in learning rate is also recommended by (Srivastava et al., 2014) while using dropout. We set the recurrent dropout in the LSTM/GRU layer as suggested by &lt;a href=&#34;https://arxiv.org/abs/1512.05287&#34; target=&#34;_blank&#34;&gt;Gal &amp;amp; Ghahramani, 2016&lt;/a&gt; to use with regular dropout. Setting 0.5 rate is via a process of trial and error.&lt;/p&gt;
+
+&lt;p&gt;We tuned various activation functions (tanh, ReLU, sigmoid) for two hidden layers with 20 units and initialized LSTM/GRU with 20 units. Then, after selected a desirable combination of activation functions, we tuned the number of nodes for the LSTM, GRU, and those two hideen layers with 30 and 64 units. We also compare the model performance with and without GloVe embedding for both GRU and LSTM models. Also, we have tried using the default Adam optimizer in keras, but the model has suffered from overfitting. However, we don’t see much improvement by increasing the number of nodes, we decide to use 20 number of unit for computational advantages.&lt;/p&gt;
+
+&lt;h3 id=&#34;result-and-conclusion&#34;&gt;Result and Conclusion&lt;/h3&gt;
+
+&lt;p&gt;Both the B-LSTM and B-GRU achieve 0.607 Jaccard score. GRU and LSTM perform the same on this task based on our tuned parameters. The process of tuning parameters for neural network model is extremly time-consuming especially when the data dimension is large. For the LSTM and GRU model, we first attempted to try different optimizers, then different number of units for hidden layers, activation functions and number of layers. There are a lot of modification to our codes since we attempt to build a better model. We have also tried using pretained embedding layer such as GloVe, but it was too expensive to train, given the dimension of the embedding and we may have to retune all the parameters. In addition, we use a tokenizer to convert text signal for the LSTM/GRU architecture, however, it may lose the information of the context of the sentence and maybe that’s one of the reasons why BERT seems to perform better than LSTM or GRU for this task.&lt;/p&gt;
+
+&lt;h2 id=&#34;data-source&#34;&gt;Data Source&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.kaggle.com/c/tweet-sentiment-extraction&#34; target=&#34;_blank&#34;&gt;Tweet Sentiment Extraction&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Kaggle:tweet sentiment extraction. &lt;a href=&#34;https://www.kaggle.com/c/&#34; target=&#34;_blank&#34;&gt;https://www.kaggle.com/c/&lt;/a&gt; tweet-sentiment-extraction.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Cho, K., Van Merrienboer, B., Bahdanau, D., and Bengio, Y.¨ On the properties of neural machine translation: Encoderdecoder approaches. arXiv preprint arXiv:1409.1259, 2014.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Chung, J., Gulcehre, C., Cho, K., and Bengio, Y. Empirical evaluation of gated recurrent neural networks on
+sequence modeling. arXiv preprint arXiv:1412.3555, 2014.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Devlin, J., Chang, M.-W., Lee, K., and Toutanova, K. Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805v2, 2018.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Gal, Y. and Ghahramani, Z. A theoretically grounded application of dropout in recurrent neural networks. In
+Advances in neural information processing systems, pp. 1019–1027, 2016.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Hochreiter, S. and Schmidhuber, J. Long short-term memory. Neural computation, 9(8):1735–1780, 1997.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Srivastava, N., Hinton, G., Krizhevsky, A., Sutskever, I., and Salakhutdinov, R. Dropout: a simple way to prevent
+neural networks from overfitting. The journal of machine learning research, 15(1):1929–1958, 2014.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What2Cook</title>
+      <link>https://kenneth-lee-ch.github.io/project/what2cook/</link>
+      <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/project/what2cook/</guid>
+      <description>&lt;p&gt;We explore the potential of creating new recipes via text data. Our goal has two folds. First, we aim to classify the cuisine based on ingredients. Second, we want to predict an ingredient that is missing from a given list of ingredients and a cuisine name. The first task can be formulated as a multi-class classification problem. To convert the text into numerical signals, we can use TFIDF vectorizer, Countvectorizer, word embedding based on Word2Vec model. We are able to achieve 0.85 micro-averaged F1 scores for the multi-classification task with multilayer perceptrons and bag-of-words model.&lt;/p&gt;
+
+&lt;p&gt;For the first task, we compare several well-known classification algorithms such as logistic regression, naive bayes, linear discriminant analysis, decision tree classifier, random forest, Adaboost, multi-layer perceptrons. We conduct grid search with 5-fold stratified cross-validation for hyperparameter tuning.&lt;/p&gt;
+
+&lt;p&gt;For the second task, we adopt two approaches to process the recipe text, which is the key to the recommender system. We first explore the recommended ingredients based on similarity to the given recipe using vectorizers; and then we examine the performance, in terms of the &amp;ldquo;top n accuracy&amp;rdquo; metric, of a baseline popularity model and a sophiticated collaborative filtering model under the ``text_preprocess method.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Citibike System Data Analysis</title>
+      <link>https://kenneth-lee-ch.github.io/project/citibike/</link>
+      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/project/citibike/</guid>
+      <description>&lt;p&gt;Citibike is New York City’s bike share system established in 2013. It has become a vital part of the transportation network in New York City. It is available for use throughout the entire year. All the riders have access to thousands of bikes at hundreds of stations across Manhattan, Brooklyn, Queens and Jersey City. In this work, we would like to explore the characteristics of this bike share system and come up with recommendations that may improve the current program based on data analysis wtih the Citi Bike system 2019 data that is publicly available.&lt;/p&gt;
+
+&lt;p&gt;According to a New York magazine, Intelligencer (&lt;a href=&#34;https://nymag.com/intelligencer/2014/03/citi-bikes-four-huge-problems.html&#34; target=&#34;_blank&#34;&gt;https://nymag.com/intelligencer/2014/03/citi-bikes-four-huge-problems.html&lt;/a&gt;), there are some problems the citi-bike share system faced in 2014. We summarize them as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;How can we increase the number of customer (one-time user)?&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Do we have any suggestion to attract more users, especially customer, during Winter?&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Riders complained as bikes went missing for maintenance or protection, leaving certain stations empty for days at a time, what can we do with that problem?&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In this work, we would like to explore the characteristics of this bike share system and try to come up with recommendations to provide potential solutions for the questions above based on data analysis wtih the Citi Bike system 2019 data that is publicly available.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Credit Card Fraud Detection</title>
+      <link>https://kenneth-lee-ch.github.io/project/creditfraud/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/project/creditfraud/</guid>
+      <description>&lt;p&gt;Credit card fraud detection is one of the most important issues for credit card companies to deal with in order to earn trust from its customers. As machine learning techniques are robust to many tackle classification problems settings such as image recognition, we aim to explore various machine learning classification algorithms on this particular problem of classifying credit card fraud.&lt;/p&gt;
+
+&lt;p&gt;This work showcases on how to compare different algorithms and fine-tune them. The dataset mainly contains 492 frauds out of 284,807 transactions. It has 28 principle components, transaction time, and tranaction amount with labels, 0 being non-fraud and 1 being fraud.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SMS Spam Classification</title>
+      <link>https://kenneth-lee-ch.github.io/project/spam/</link>
+      <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kenneth-lee-ch.github.io/project/spam/</guid>
+      <description>&lt;p&gt;Spam, a bulk of unsolicited messages sent by anonymous sources, has been a costly issue to human communication. Machine learning techniques have been shown promising to filter these messages as it adapts to the evolving characteristics of the spam. In this work, we focus on neural networks to the problem of spam filtering. Overall, we conclude that using bidirectioncomparing various classification methodsal gated recurrent neural network with tokenizer method is the most robust way we have found to handle this problem with our particular dataset. This work provides insights on how to design a neural network to work with spam filtering problem as part of my contribution to a course project titled &amp;ldquo;Machine_Learning_Approaches_to_Spam_Filtering_Problems&amp;rdquo;. You may click on the PDF file to view the full paper.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
